@@ -17,6 +17,7 @@ const EducationTimeline = () => {
           <h3 className="text-xl font-bold">{item.title}</h3>
           <h4 className="text-lg text-[#915eff]">{item.institution}</h4>
           <p>{item.description}</p>
+          <h1>{item.grade}</h1>
         </VerticalTimelineElement>
       ))}
     </VerticalTimeline>

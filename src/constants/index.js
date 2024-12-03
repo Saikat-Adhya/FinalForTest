@@ -3,26 +3,29 @@ export const education = [
     date: "2023 - 2025",
     title: "Master's Degree",
     institution: "Techno India University",
-    description: "Master of Computer Applications"
+    description: "Master of Computer Applications",
+    grade: "8.00 CGPA"
   },
   {
-    date: "2020 - 2024",
+    date: "2020 - 2023",
     title: "Bachelor's Degree",
-    institution: "Your University",
-    description: "Computer Science and Engineering"
+    institution: "Techno Main Salt Lake",
+    description: "Bachelor of Computer Applications",
+    grade: "9.20 CGPA"
   },
   {
     date: "2018 - 2020",
     title: "Higher Secondary",
-    institution: "Your School",
-    description: "Science Stream"
+    institution: "Berhampore J.N. Academy",
+    description: "Science Stream",
+    grade: "82.40 %"
   },
-  {
-    date: "2018",
-    title: "Secondary Education",
-    institution: "Your School",
-    description: "CBSE Board"
-  }
+  // {
+  //   date: "2018",
+  //   title: "Secondary Education",
+  //   institution: "Your School",
+  //   description: "CBSE Board"
+  // }
 ];
 
 export const projects = [
