@@ -28,8 +28,17 @@ const ProjectCard = ({ project, index }) => {
         ))}
       </div>
       <a
+        href={project.live}
+        className="text-[#40ed2d] hover:underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Live →
+      </a>
+      <br />
+      <a
         href={project.link}
-        className="text-[#915eff] hover:underline"
+        className="text-[#e2f92f] hover:underline"
         target="_blank"
         rel="noopener noreferrer"
       >

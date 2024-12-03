@@ -97,7 +97,7 @@ const Contact = () => {
             </div>
             <div className="flex space-x-6">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Saikat-Adhya"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-3xl hover:text-[#915eff] transition-colors"
@@ -105,7 +105,7 @@ const Contact = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/saikat-adhya-53b7452a9/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-3xl hover:text-[#915eff] transition-colors"
@@ -113,7 +113,7 @@ const Contact = () => {
                 <FaLinkedin />
               </a>
               <a
-                href="https://twitter.com/yourusername"
+                href="https://x.com/saikatadhya2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-3xl hover:text-[#915eff] transition-colors"

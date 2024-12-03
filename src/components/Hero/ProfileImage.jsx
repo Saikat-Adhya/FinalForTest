@@ -12,7 +12,7 @@ const ProfileImage = () => {
         <div
           className="w-full h-full rounded-full border-4 border-[#915eff] bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('${import.meta.env.BASE_URL}profile-placeholder.jpg')`
+            backgroundImage: `url('${import.meta.env.BASE_URL}Profile.jpg')`
           }}
         />
         <motion.div

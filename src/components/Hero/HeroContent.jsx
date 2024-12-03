@@ -10,14 +10,16 @@ const HeroContent = () => {
       className="flex-1"
     >
       <h1 className="text-5xl sm:text-6xl font-bold text-primary-content">
-        Hi, I'm <span className="text-[#915eff]">Your Name</span>
+        Hi, I'm <span className="text-[#915eff]">Saikat Adhya</span>
       </h1>
-      <p className="text-secondary text-lg mt-4 max-w-lg">
-        A passionate developer focused on creating interactive and user-friendly web applications.
+      <p className="text-secondary text-lg mt-4 max-w-lg text-slate-200">
+        A passionate MERN Stack Developer focused on creating interactive and user-friendly web applications.
+        <br />
+        Full-Stack Enthusiast | Tech Innovator | MCA'25
       </p>
       <div className="flex gap-4 mt-8">
         <motion.a
-          href="/resume.pdf"
+          href="/SaikatcvTechno.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}

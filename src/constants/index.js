@@ -15,7 +15,7 @@ export const education = [
   },
   {
     date: "2018 - 2020",
-    title: "Higher Secondary",
+    title: "Higher Secondary (XII)",
     institution: "Berhampore J.N. Academy",
     description: "Science Stream",
     grade: "82.40 %"
@@ -30,25 +30,28 @@ export const education = [
 
 export const projects = [
   {
-    title: "Project 1",
-    description: "A brief description of project 1 and its key features.",
-    tech: ["React", "Node.js", "MongoDB"],
+    title: "News Portal",
+    description: "This News Portal project is a modern web app that delivers real-time news on various topics, such as cricket, finance, politics, technology, and jobs. Users can search for specific news, view articles from reliable sources, and explore category-based news feeds. Key features include a splash screen, dark mode toggle, scroll-to top button, loading spinner, etc. The app uses the News API to fetch the latest articles dynamically based on user preferences and search queries, offering a clean, responsive design for easy navigation and readability.",
+    tech: ["HTML", "CSS", "JS", "React", "News API"],
     link: "#",
-    image: "/project1.jpg"
+    live:"https://news-portal-saikat.netlify.app/",
+    image: "/News.png"
   },
   {
-    title: "Project 2",
-    description: "A brief description of project 2 and its key features.",
-    tech: ["React", "Firebase", "Tailwind"],
-    link: "#",
-    image: "/project2.jpg"
+    title: " Sunglass Ecommerce Website",
+    description: " Developed a fully functional and responsive e-commerce website for a exclusive sunglass store using HTML, CSS, and JavaScript. The website features an elegant and user-friendly interface designed to enhance the shopping experience. ",
+    tech: ["HTML", "CSS", "JS"],
+    link: "https://github.com/Saikat-Adhya/Sunglass_Frontned_Website",
+    live:"https://saikatsunglass.netlify.app/",
+    image: "/sunglass.png"
   },
   {
-    title: "Project 3",
-    description: "A brief description of project 3 and its key features.",
-    tech: ["Vue.js", "Express", "PostgreSQL"],
-    link: "#",
-    image: "/project3.jpg"
+    title: "Travel Website",
+    description: "Travia is a sleek and intuitive travel booking website designed to streamline the process of planning and booking travel accommodations and experiences. Built using HTML, CSS, and JavaScript, this front end-focused platform offers users a seamless and visually engaging experience while facilitating easy navigation and booking. Here they easily experience of bookings like Flight,Train,Bus,Hotels,etc.",
+    tech: ["HTML", "CSS", "JS"],
+    link: "https://github.com/Saikat-Adhya/Travel_Website-Front-End",
+    live:"https://travia-front.netlify.app/",
+    image: "/travia.png"
   }
 ];
 

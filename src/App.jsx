@@ -25,17 +25,17 @@ function App() {
         <div id="education">
           <Education />
         </div>
-        <div id="services">
-          <Services />
-        </div>
-        <div id="experience">
-          <Experience />
-        </div>
         <div id="projects">
           <Projects />
         </div>
+        <div id="services">
+          <Services />
+        </div>
         <div id="gallery">
           <Gallery />
+        </div>
+        <div id="experience">
+          <Experience />
         </div>
         <div id="resume">
           <Resume />

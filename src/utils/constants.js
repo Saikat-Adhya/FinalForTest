@@ -1,5 +1,5 @@
 export const socialLinks = {
-  github: 'https://github.com/yourusername',
+  github: 'https://github.com/Saikat-Adhya',
   linkedin: 'https://linkedin.com/in/yourusername',
   twitter: 'https://twitter.com/yourusername'
 };

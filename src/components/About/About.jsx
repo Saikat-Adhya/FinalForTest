@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about" className="py-20 px-6 sm:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-16">About Me</h2>
+        <h2 className="text-4xl font-bold text-center mb-16 underline">About Me</h2>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -18,9 +18,8 @@ const About = () => {
               on the internet, which led me to pursue a career in web development.
             </p>
             <p>
-              I specialize in building responsive and user-friendly applications using
-              React, Node.js, and other cutting-edge technologies. I'm always eager to
-              learn new technologies and improve my skills.
+            I am a motivated and skilled individual with a strong passion for Java programming and web development. 
+            Experienced in building Realtime web applications using technologies like HTML,CSS,JS,React Js, Node Js,MongoDB, Express Js.
             </p>
             <p>
               When I'm not coding, you can find me exploring new technologies,
@@ -29,7 +28,7 @@ const About = () => {
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            {['JavaScript', 'React', 'Node.js', 'TypeScript', 'MongoDB', 'PostgreSQL'].map((skill) => (
+            {['Java','HTML','CSS','JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'SQLPlus','Git','MsOffice'].map((skill) => (
               <motion.div
                 key={skill}
                 initial={{ opacity: 0 }}
