@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #050816;
+  --secondary: #aaa6c3;
+  --tertiary: #151030;
+  --accent: #915eff;
+  --primary-content: #ffffff;
+  --card-bg: #1d1836;
+}
+
+:root.light {
+  --primary: #ffffff;
+  --secondary: #4b5563;
+  --tertiary: #f3f4f6;
+  --accent: #6b46c1;
+  --primary-content: #1f2937;
+  --card-bg: #ffffff;
+}
+
+@layer base {
+  body {
+    @apply bg-primary text-primary-content;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-primary-content;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply cursor-pointer hover:text-accent transition-colors;
+  }
+
+  .section-title {
+    @apply text-4xl font-bold text-center mb-16;
+  }
+
+  .card {
+    @apply bg-card-bg p-6 rounded-lg shadow-lg transition-all duration-300 hover:transform hover:-translate-y-2;
+  }
+}
+
+/* Timeline styles */
+.vertical-timeline-element-content {
+  @apply bg-card-bg text-primary-content;
+  box-shadow: 0 3px 0 var(--accent) !important;
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right: 7px solid var(--card-bg) !important;
+}
+
+/* Gallery styles */
+.gallery-image {
+  @apply transition-transform duration-300 hover:scale-105;
+}
