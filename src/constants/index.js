@@ -1,5 +1,11 @@
 export const education = [
   {
+    date: "2023 - 2025",
+    title: "Master's Degree",
+    institution: "Techno India University",
+    description: "Master of Computer Applications"
+  },
+  {
     date: "2020 - 2024",
     title: "Bachelor's Degree",
     institution: "Your University",
