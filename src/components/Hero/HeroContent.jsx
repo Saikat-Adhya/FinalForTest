@@ -12,7 +12,7 @@ const HeroContent = () => {
       <h1 className="text-5xl sm:text-6xl font-bold text-primary-content">
         Hi, I'm <span className="text-[#915eff]">Saikat Adhya</span>
       </h1>
-      <p className="text-secondary text-lg mt-4 max-w-lg text-slate-200">
+      <p className="text-secondary text-lg mt-4 max-w-lg">
         A passionate MERN Stack Developer focused on creating interactive and user-friendly web applications.
         <br />
         Full-Stack Enthusiast | Tech Innovator | MCA'25
